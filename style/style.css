@@ -1,0 +1,58 @@
+::selection {
+  background-color: transparent;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+body {
+  background-color: #b0957c;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.cat {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cat img {
+  position: absolute;
+  width: 400px;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.siteInfo {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: -10px;
+  left: 10px;
+}
+
+.siteInfo span {
+  font-weight: bold;
+}
+
+.siteInfo a {
+  color: #3f51b5;
+}
